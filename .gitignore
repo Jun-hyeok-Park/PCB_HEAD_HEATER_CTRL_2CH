@@ -1,0 +1,71 @@
+# ============================================
+# Altium Designer - Generated / Temporary
+# ============================================
+
+# History / Backup
+**/History/
+
+# Project Logs
+Project Logs for */
+**/Project Logs for */
+
+*.LOG
+*.log
+
+# Project Outputs
+Project Outputs for */
+**/Project Outputs for */
+
+# Preview
+**/__Previews__/
+*.SchDocPreview
+*.PcbDocPreview
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Altium generated structure
+*.PrjPcbStructure
+
+# Archive
+*.zip
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Development temporary
+__pycache__/
+*.pyc
+node_modules/
+.pnpm-store/
+.review_deps/
+
+
+# ============================================
+# Vendor downloaded LIB_* packages
+# Keep ONLY Altium libraries + STEP models
+# ============================================
+
+/LIB_*/**
+
+# Allow directory traversal
+!/LIB_*/**/
+
+# Altium libraries
+!/LIB_*/**/*.SchLib
+!/LIB_*/**/*.PcbLib
+!/LIB_*/**/*.IntLib
+
+# STEP / STP 3D models
+!/LIB_*/**/*.STEP
+!/LIB_*/**/*.STP
+!/LIB_*/**/*.step
+!/LIB_*/**/*.stp
